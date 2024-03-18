@@ -1,6 +1,6 @@
 package com.elis.aeroportoprivato.dto.request;
 
-public class AggiungiAeroporto {
+public class AggiungiAeroportoDTO {
     private String continente;
     private String nazione;
     private String citta;
