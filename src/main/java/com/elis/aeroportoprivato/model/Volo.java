@@ -40,4 +40,7 @@ public class Volo {
 	@JoinColumn(nullable = false, name = "id_prenotazione")
 	private Prenotazione prenotazione;
 
+	@Column(nullable = false, columnDefinition = "boolean default false")
+	private boolean rimosso;
+
 }

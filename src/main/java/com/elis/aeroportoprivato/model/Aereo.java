@@ -26,4 +26,7 @@ public class Aereo {
 	@Column(nullable = false)
     private double prezzoGiornaliero;
 
+	@Column(nullable = false, columnDefinition = "boolean default false")
+	private boolean rimosso;
+
 }
